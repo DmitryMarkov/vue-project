@@ -7,41 +7,45 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
+    "upgrade-dependencies": "yarn upgrade-interactive --latest --exact",
     "lint": "vue-cli-service lint"
   },
   "resolutions": {
     "@hapi/hoek": ">=8.5.1",
+    "dot-prop": "^4.2.1",
     "http-proxy": ">=1.18.1",
     "kind-of": ">=6.0.3",
     "lodash": "^4.17.19",
     "minimist": ">=1.2.3",
+    "node-forge": "^0.10.0",
+    "serialize-javascript": ">=3.1.0",
     "yargs": ">=13.3.2"
   },
   "dependencies": {
     "core-js": "3.6.5",
     "register-service-worker": "1.7.1",
-    "vue": "2.6.11",
-    "vue-router": "3.3.4",
-    "vuex": "3.4.0"
+    "vue": "2.6.12",
+    "vue-router": "3.4.5",
+    "vuex": "3.5.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "4.4.4",
-    "@vue/cli-plugin-e2e-cypress": "4.4.4",
-    "@vue/cli-plugin-eslint": "4.4.4",
-    "@vue/cli-plugin-pwa": "4.4.4",
-    "@vue/cli-plugin-router": "4.4.4",
-    "@vue/cli-plugin-unit-jest": "4.4.4",
-    "@vue/cli-plugin-vuex": "4.4.4",
-    "@vue/cli-service": "4.4.4",
+    "@vue/cli-plugin-babel": "4.5.6",
+    "@vue/cli-plugin-e2e-cypress": "4.5.6",
+    "@vue/cli-plugin-eslint": "4.5.6",
+    "@vue/cli-plugin-pwa": "4.5.6",
+    "@vue/cli-plugin-router": "4.5.6",
+    "@vue/cli-plugin-unit-jest": "4.5.6",
+    "@vue/cli-plugin-vuex": "4.5.6",
+    "@vue/cli-service": "4.5.6",
     "@vue/eslint-config-prettier": "6.0.0",
-    "@vue/test-utils": "1.0.3",
+    "@vue/test-utils": "1.1.0",
     "babel-eslint": "10.1.0",
-    "eslint": "7.2.0",
+    "eslint": "7.10.0",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-vue": "6.2.2",
-    "lint-staged": "10.2.10",
-    "prettier": "2.0.5",
-    "vue-template-compiler": "^2.6.10"
+    "eslint-plugin-vue": "7.0.0",
+    "lint-staged": "10.4.0",
+    "prettier": "2.1.2",
+    "vue-template-compiler": "2.6.12"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
